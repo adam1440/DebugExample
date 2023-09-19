@@ -1,1 +1,13 @@
 github.com/tccmobile/PersonF23
+replit.com/@williamsmith/ClassesPt2#operater
+
+lhs operator rhs
+A      +     B
+more than one way to overload
+l & R both objects
+object +      built in type (built in type on left only when object is built in type
+
+
+how to work with cout and related things
+
+friend: 
