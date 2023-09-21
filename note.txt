@@ -11,3 +11,11 @@ object +      built in type (built in type on left only when object is built in 
 how to work with cout and related things
 
 friend: 
+
+
+Static attributes
+all objects share the same attributes
+
+static methods
+dont have a this pointer
+only allow access to static attributes
