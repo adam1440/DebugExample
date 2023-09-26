@@ -19,3 +19,69 @@ all objects share the same attributes
 static methods
 dont have a this pointer
 only allow access to static attributes
+
+pointers
+int val = x
+
+int*ptr = &val - & = location of
+
+ptr - location in memory that points to a piece of data
+cout << ptr - location in memory
+cout << *ptr - value in memory
+
+CPP typechecks pointers
+
+new operator - dynamic memory allocation
+
+int*ptrName = new int;
+pointer to int = int*- name
+new = allocates storage dependant on data type & returns address
+
+difference in approaches
+approach 1 - two ways to reference - directly or through pointers
+approach 2 - new data type - can only be referenced through pointers
+
+stringName = "bob";
+ptr = &name;
+above does not work becuase of the type mismatch
+
+int*newPtr = new int;
+*newPtr = 170 - 170 stil stuck in memory 
+*newPtr = new int;
+newPtr = 77;
+
+int*newPtr = new int;
+newPtr = 42;
+delete newPtr;  - delete goes to allocated memory and removes the value stored there
+
+
+
+Vectors
+
+vector a<int> = {1,2,3,4}
+cout << a.at(7)
+vectors do not allow you to exceed the size
+
+arrays must have uninterupted sections of memory
+vectors must also have uninterupted secetions but can move in memory as it grows and shrinks
+
+
+con
+lots of overhead to move things around
+
+
+small (sub 1000) - use vectors
+large data sets - consider other alternatives
+
+linked list - no contiguous memory requirement 
+use for large data
+con - can be difficult to implement and use
+built in options with larger overhead and some issues
+every node has 2 things
+data, node ptr
+this allows them to reference each other and find the other in memory
+inefficient - add an array to index through an array - iterator
+
+
+hash map - look into later
+
