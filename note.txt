@@ -85,3 +85,28 @@ inefficient - add an array to index through an array - iterator
 
 hash map - look into later
 
+Rule of 3
+Does my class have a pointer - if yes copy the constructor
+destructor - ~className - delete anything new'ed in constructor
+only one destructor
+overloaded = operator
+
+shallow copy - copy paste without changing location in memory
+deep - copy what is pointed to
+pointers should not be copy pasted, instead create a new location in memory for the copy to point to
+int data
+intNode *next;
+
+copy constructor
+className(const className& origObject);
+const - keeps the constructor from changing the originial
+
+when are copy constructors used
+passing objects is done through copy
+destroyed after it is out of scope
+
+Memory
+Code - where code is stored during a programs execution
+Static - region where global variables are stored as well as static local variables
+stack - function's local variables are stored during a function call. function adds local variables to the stact and return removes them
+heap - free memory 
