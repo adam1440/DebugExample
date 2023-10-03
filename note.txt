@@ -110,3 +110,14 @@ Code - where code is stored during a programs execution
 Static - region where global variables are stored as well as static local variables
 stack - function's local variables are stored during a function call. function adds local variables to the stact and return removes them
 heap - free memory 
+
+endl - \n to buffer and flush buffer
+flush - inform system to buffer
+
+Data may not be written until
+buffer fills
+flush is sent
+object assoiated with buffer closes / goes out of scope
+
+closing buffer connections are important 
+connection may become stuck open
