@@ -121,3 +121,7 @@ object assoiated with buffer closes / goes out of scope
 
 closing buffer connections are important 
 connection may become stuck open
+
+replit.com/@williamsmith/curlExample
+
+curl.se
