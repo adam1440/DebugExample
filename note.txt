@@ -133,3 +133,11 @@ method overriding
 object pointers
 vitrual method (virtual table)
 virtual - in front of function header - override at the end of method signature
+
+
+Recursion
+Function Frame
+pushed to stack in memory
+describes function call
+  Var/parameters
+  how to return
