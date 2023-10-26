@@ -141,3 +141,8 @@ pushed to stack in memory
 describes function call
   Var/parameters
   how to return
+
+
+Nov 14 +: Presentaton due dates - network is my topic
+try to find an example that I can run or show running on my home server
+https://www.craft.me/s/66PcovnjZbu0zn
