@@ -146,3 +146,10 @@ describes function call
 Nov 14 +: Presentaton due dates - network is my topic
 try to find an example that I can run or show running on my home server
 https://www.craft.me/s/66PcovnjZbu0zn
+smart pointers
+
+exception handling
+
+try - attempts to run a piece of code
+throw - shows a exception and automaticly goes to the catch parameter
+catch -  catches the exception and atttempts to solve the issue to prevent crash
