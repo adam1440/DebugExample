@@ -153,3 +153,9 @@ exception handling
 try - attempts to run a piece of code
 throw - shows a exception and automaticly goes to the catch parameter
 catch -  catches the exception and atttempts to solve the issue to prevent crash
+
+
+replit.com/@williamsmith/TemplateExamples
+specalize template: template<>: look up more later
+
+auto keyword: look up more whenever I can
